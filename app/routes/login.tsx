@@ -1,7 +1,9 @@
+import { Layout } from "~/components/layout"
+
 export default function login() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <Layout>
       <h2 className="text-yellow-300 font-extrabold text-5xl">Login Route</h2>
-    </div>
+    </Layout>
   )
 }
